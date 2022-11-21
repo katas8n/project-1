@@ -1,13 +1,9 @@
 :root {
-    --primary-color : ;
+    --primary-color : #292929 ;
 
-    --primary-bg : ;
+    --primary-bg : #F4EFFE;
 
-    --font-family-size : ;
+    --primary-border : 1px solid rgba(120, 77, 199, 1);
 
-    --font-size-size : ;
-
-    --margin-size : ;
-    --padding-size : ;
 }
     

@@ -1,3 +1,15 @@
+@import "./variables.css";
+
+@font-face {
+    font-family: "primary";
+    src: url(../public/fonts/Gotham-Thin.ttf);
+}
+
+@font-face {
+    font-family: "primary-light";
+    src: url(../public/fonts/Gotham-Light.ttf);
+}
+
 * {
     padding : 0;
     margin : 0;
@@ -12,4 +24,33 @@ a {
 li {
     list-style-type : none ;
 }
-    
+
+.header {
+    font-family: primary-light;
+    background: var(--primary-bg);
+    border: var(--primary-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.nav {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.button {
+    background: #E9DFFC;
+    color: #784DC7;
+    padding: .8rem 2rem;
+    border-radius: .3rem;
+    border: none;
+}
