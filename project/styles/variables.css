@@ -1,13 +1,37 @@
 :root {
-    --primary-color : ;
+    /* * Backgrounds */
+    --primary-bg : darkmagenta ;
+    --secondary-bg : magenta ;
+    --third-bg : linear-gradient(darkcyan ,rgb(0, 181, 181)) ;
+    --fourth-bg : darkmagenta ;
 
-    --primary-bg : ;
+     /* * Colors */
+     --primary-color : darkmagenta ;
+     --secondary-color : magenta ;
+     --third-color : linear-gradient(darkcyan ,rgb(0, 181, 181)) ;
+     --fourth-color : darkmagenta ;
 
-    --font-family-size : ;
+     /* * font-family */
+    --font-family-xl : sans-serif ;
+    --font-family-l : serif ;
 
-    --font-size-size : ;
+    /* * font-size */
+    --font-size-xl : 3rem ;
+    --font-size-l : 2rem ;
+    --font-size-m : 1rem;
+    --font-size-s : 0.8rem;
 
-    --margin-size : ;
-    --padding-size : ;
+    /* * margins */
+    --margin-xl : 3rem ;
+    --margin-l : 2rem;
+    --margin-m : 1rem;
+    --margin-s : 0.8rem ;
+
+    /* * paddings */
+    --padding-xl : 3rem ;
+    --padding-l : 2rem;
+    --padding-m : 1rem;
+    --padding-s : 0.8rem ;
+
 }
     
